@@ -6,9 +6,12 @@ import ContactForm from "./ContactForm";
 const NavButtons = () => {
   return (
     <>
-      <Button variant="link" size="sm">HOME</Button>
-      <Button variant="link" size="sm">ABOUT</Button>
+  
+      {/* <img src="gt-name-white.png" alt="name" className="nav-name" /> */}
+      <Button variant="link" size="sm" style={{fontFamily: "Libre Franklin"}}>HOME</Button>
+      <Button variant="link" size="sm" style={{fontFamily: "Libre Franklin"}}>ABOUT</Button>
       <ContactForm />
+
   </>
   );
 };

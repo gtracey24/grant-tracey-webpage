@@ -9,7 +9,9 @@
 
 .nav {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
+  margin-top: 10px;
+
 }
 
 .title-container {
@@ -17,7 +19,16 @@
   flex-wrap: wrap;
   justify-content:center;
   align-items: center;
-  margin-bottom: 50px;
+  /* background-image: url("../public/dark-concrete.jpg");  */
+  /* background-color: rgba(0, 0, 0, 0.135); */
+}
+.about-title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items: center;
+  margin-bottom: -15px;
+  
   /* background-image: url("../public/dark-concrete.jpg");  */
   /* background-color: rgba(0, 0, 0, 0.135); */
 }
@@ -35,8 +46,15 @@
   height: 200px;
   border-radius: 0%;
 }
+.avatar-round {
+  vertical-align: middle;
+  width:200px;
+  height: 200px;
+  border-radius: 50%;
+}
 
 .people-img {
+  display: flex;
   margin-top: 50px;
   margin-bottom: 50px;
   margin-right: auto;
@@ -55,6 +73,11 @@
   height: 605px;
 }
 
+.nav-name{
+  
+  margin-right: 15px;
+}
+
 .smooth-gradient-text {
   background: linear-gradient(to right,  rgba(253,29,29,1), rgba(252,176,69,1));
   -webkit-background-clip: text;
@@ -62,7 +85,7 @@
 }
 
 .statement-container {
-  margin-top: 10px;
+  margin-top:  10px;
   padding-left: 20px;
   padding-bottom:20px;
   padding-top: 150px;
@@ -83,6 +106,19 @@
   font-size: 25px;
   color: #ffffff;
   background-color:rgb(97, 97, 97);
+  font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 25px;
+  font-style: normal;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+}
+
+.about {
+  margin-top: 10px;
+  padding: 20px;
+  font-size: 20px;
+  color: #ffffff;
+  background-color:rgb(109, 109, 109);
   font-family: "Libre Franklin", sans-serif;
   font-optical-sizing: auto;
   font-weight: 25px;

@@ -10,7 +10,7 @@ const ContactForm = () => {
 
   return (
     <>
-      <Button variant="link" size="sm" onClick={handleShow}>
+      <Button variant="link" size="sm" style={{fontFamily: "Libre Franklin"}} onClick={handleShow}>
         CONTACT
       </Button>
       <Modal show={show} onHide={handleClose}>
