@@ -9,7 +9,8 @@ const NavButtons = () => {
   
       {/* <img src="gt-name-white.png" alt="name" className="nav-name" /> */}
       <Button variant="link" size="sm" style={{fontFamily: "Libre Franklin"}}>HOME</Button>
-      <Button variant="link" size="sm" style={{fontFamily: "Libre Franklin"}}>ABOUT</Button>
+      <Button variant="link" size="sm" style={{fontFamily: "Libre Franklin"}}>PROJECTS</Button>
+      <Button variant="link" size="sm" style={{fontFamily: "Libre Franklin"}}><a href="Grant Tracey Resume-Dev.pdf" target="_blank">RESUME</a></Button>
       <ContactForm />
 
   </>
