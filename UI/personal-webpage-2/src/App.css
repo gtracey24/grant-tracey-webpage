@@ -10,7 +10,7 @@
 .nav {
   display: flex;
   justify-content: flex-start;
-  margin-top: 10px;
+  margin-left: 20px;
 }
 
 .footer {
@@ -24,8 +24,6 @@
   flex-wrap: wrap;
   justify-content:center;
   align-items: center;
-  /* background-image: url("../public/dark-concrete.jpg");  */
-  /* background-color: rgba(0, 0, 0, 0.135); */
 }
 .about-title {
   display: flex;

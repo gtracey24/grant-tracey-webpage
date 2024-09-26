@@ -1,18 +1,12 @@
 import "../App.css";
-import NavButtons from "../components/NavButtons";
 import React from "react";
 import { motion } from "framer-motion";
 import Footer from "../components/Footer";
-import ImageCarousel from "../components/ImageCarousel";
 
-function HomePage() {
+function Home() {
   return (
     <div className="magicpattern">
       <div className="main-container">
-        <div className="nav">
-          <img src="gt-name-200-50-white.png" alt="name" className="nav-name" />
-          <NavButtons />
-        </div>
         <div className="statement-container">
           In a tech-based world,
           <br /> we need to focus on
@@ -85,4 +79,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default Home;
