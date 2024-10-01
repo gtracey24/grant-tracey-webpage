@@ -16,7 +16,8 @@ function Home() {
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.3 }}
+            // transition={{ delay: 0.3 }}
+            whileHover={{scale: 1.5}}
           >
             <img
               src="people-onward.png"
@@ -27,7 +28,8 @@ function Home() {
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.4 }}
+            // transition={{ delay: 0.4 }}
+            whileHover={{scale: 1.5}}
           >
             <img
               src="people-missions-dig.png"
@@ -38,7 +40,8 @@ function Home() {
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.5 }}
+            // transition={{ delay: 0.5 }}
+            whileHover={{scale: 1.5}}
           >
             <img
               src="people-covid.png"

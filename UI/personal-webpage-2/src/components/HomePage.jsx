@@ -1,17 +1,15 @@
 import "../App.css";
-import NavButtons from "../components/NavButtons";
 import React from "react";
 import { motion } from "framer-motion";
 import Footer from "../components/Footer";
-import ImageCarousel from "../components/ImageCarousel";
 
-function HomePage() {
+const HomePage = () => {
   return (
     <div className="magicpattern">
       <div className="main-container">
         <div className="nav">
           <img src="gt-name-200-50-white.png" alt="name" className="nav-name" />
-          <NavButtons />
+
         </div>
         <div className="statement-container">
           In a tech-based world,
@@ -19,43 +17,29 @@ function HomePage() {
           <div className="smooth-gradient-text">people.</div>
         </div>
         <div className="people-container">
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.3 }}
-          >
+            <motion.div whileHover={{scale: 1.5}} >
             <img
               src="people-onward.png"
               alt="Grant with church group"
               className="people-img"
             />
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.4 }}
-          >
+            </motion.div>
             <img
               src="people-missions-dig.png"
               alt="Grant with missions group"
               className="people-img"
             />
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.5 }}
-          >
             <img
               src="people-covid.png"
               alt="Grant with group wearing masks"
               className="people-img"
             />
-          </motion.div>
         </div>
         <div className="about">
           <div className="about-title">
+
             <img src="about-me-white.png" alt="about me" className="name" />
+
             <img
               src="family-avatar.png"
               alt="Tracey family"

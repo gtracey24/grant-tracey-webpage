@@ -10,7 +10,12 @@ const ContactForm = () => {
 
   return (
     <>
-      <Button variant="link" size="sm" style={{fontFamily: "Libre Franklin"}} onClick={handleShow}>
+      <Button
+        variant="link"
+        size="sm"
+        style={{ fontFamily: "Libre Franklin" }}
+        onClick={handleShow}
+      >
         CONTACT
       </Button>
       <Modal show={show} onHide={handleClose}>
@@ -25,7 +30,11 @@ const ContactForm = () => {
             </Form.Group>
             <Form.Group className="mb-3" controlId="message">
               <Form.Label>Message</Form.Label>
-              <Form.Control as="textarea" placeholder="Enter message" rows={5}/>
+              <Form.Control
+                as="textarea"
+                placeholder="Enter message"
+                rows={5}
+              />
             </Form.Group>
           </Form>
         </Modal.Body>
