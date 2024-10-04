@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 
 function WellCoffeeProjectCard() {
   return (
-    <Card style={{ width: '18rem' }} text='dark'>
+    <Card style={{ width: '18rem' }} text='dark' class='  font-family: "Libre Franklin", sans-serif;'>
       <Card.Img variant="top" src="project-card-well-coffee.png" />
       <Card.Body>
         <Card.Title>Well Coffee Inventory App</Card.Title>
@@ -11,8 +11,12 @@ function WellCoffeeProjectCard() {
           A fully featured inventory app built by four developers that serves as my capstone project 
           for the LaunchCode Web Development program.
         </Card.Text>
+        <a href='https://youtu.be/QogPuY8nQNY?si=Kz-axGO7QK7RmAdR' target='_blank'>
         <Button variant="primary">Video Demo</Button>
+        </a>
+        <a href='https://github.com/gtracey24/well-coffee' target='_blank'>
         <Button variant="secondary">GitHub</Button>
+        </a>
       </Card.Body>
     </Card>
   );

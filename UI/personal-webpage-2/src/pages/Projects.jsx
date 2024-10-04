@@ -13,10 +13,10 @@ function Projects() {
       <div className="projects-container">
         <div className="projects-cards">
           <WellCoffeeProjectCard />
+          {/* <ProjectCardTemplate />
           <ProjectCardTemplate />
           <ProjectCardTemplate />
-          <ProjectCardTemplate />
-          <ProjectCardTemplate />
+          <ProjectCardTemplate /> */}
         </div>
         <div className="footer">
           <Footer />
