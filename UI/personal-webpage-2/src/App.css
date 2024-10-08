@@ -9,6 +9,7 @@
   display: flex;
   justify-content: flex-start;
   margin-left: 20px;
+  width: 100%;
 }
 .smooth-gradient-text {
   background: linear-gradient(to bottom right,rgba(253,29,29), rgba(252,176,69));
@@ -28,11 +29,12 @@
   align-items: center;
 }
 .about-title {
-margin-top: auto;
-margin-bottom: 15px;
-  margin-right: 60px;
   display: flex;
   flex-wrap: wrap;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 20px;
 }
 .people-container {
   display: flex;
@@ -42,8 +44,6 @@ margin-bottom: 15px;
 
 }
 .avatar-round {
-  display: flex;
-  vertical-align: middle;
   width:250px;
   height: auto;
   border-radius: 50%;
@@ -60,11 +60,10 @@ margin-bottom: 15px;
   height: auto;
 }
 .name{
-  display: flex;
-margin: auto;
-  width: auto;
-  height: 75px;
-  /* background-color: blue; */
+  min-width: 40%;
+  min-height: auto;
+  width:40%;
+  height: 40%;
 }
 .nav-name{
   margin-right: 15px;
@@ -118,32 +117,29 @@ li {
   background-color: rgba(131,58,180,1);
 }
 .magicpattern {
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  width: 100vw; /* 100% of the viewport width */
+  height: 100%; /* 100% of the viewport height */
+  /* overflow:scroll; Allows scrolling if content overflows */
+  /* overflow-x: hidden; */
+  /* overflow-y: hidden; */
+  background-size:cover;
+  background-position: center center;
+  background-repeat: repeat;
   background-image: url("magicpattern-grid-pattern-1728061032746.jpeg");
 }
 /* PROJECTS PAGE STYLES */
 .projects-container {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  align-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
   margin: auto;
-  /* padding-right: 500px;
-  padding-left: 500px;
-  padding-top: 10px;
-  padding-bottom: 17px; */
-  width: 70%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 60%;
   height: auto;
 }
 .projects-title {
-  display: flex;
-  justify-content: center;
-  padding: 20px ;
+  margin-bottom: 40px;
 }
 .projects-cards {
   display: flex;
@@ -154,15 +150,14 @@ li {
 }
 /* CONTACT PAGE STYLES */
 .contact-main-container {
-  margin: auto;
   display: flex;
-  flex-wrap: wrap;
-  padding-top: 100px;
-  padding-bottom: 105px;
-  padding-left: 400px;
-  padding-right: 400px;
-  width: 100%;
-  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 125px;
+  width: 60%;
+  height: auto;
 }
 .form-container {
   display: flex;

@@ -1,10 +1,11 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import project_card_well_coffee from '../assets/project_card_well_coffee.png'
 
 function WellCoffeeProjectCard() {
   return (
     <Card style={{ width: '18rem' }} text='dark' class='  font-family: "Libre Franklin", sans-serif;'>
-      <Card.Img variant="top" src="project-card-well-coffee.png" />
+      <Card.Img variant="top" src={project_card_well_coffee} alt="Well Coffee inventory app image" />
       <Card.Body>
         <Card.Title>Well Coffee Inventory App</Card.Title>
         <Card.Text>

@@ -1,28 +1,24 @@
 import "../App.css";
 import React from "react";
-import ProjectCardTemplate from "../components/ProjectCardTemplate";
+import projects_white from "../assets/projects_white.png";
 import Footer from "../components/Footer";
 import WellCoffeeProjectCard from "../components/WellCoffeeProjectCard";
 
 function Projects() {
   return (
-    <div className="magicpattern">
-      <div className="projects-title">
-        <img src="projects-white.png" />
-      </div>
-      <div className="projects-container">
-        <div className="projects-cards">
+    <>
+      <div className="magicpattern">
+        <div className="projects-container">
+          <div className="projects-title">
+            <img src={projects_white} />
+          </div>
           <WellCoffeeProjectCard />
-          {/* <ProjectCardTemplate />
-          <ProjectCardTemplate />
-          <ProjectCardTemplate />
-          <ProjectCardTemplate /> */}
-        </div>
-        <div className="footer">
-          <Footer />
+          <div className="footer">
+            <Footer />
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

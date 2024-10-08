@@ -2,6 +2,11 @@ import "../App.css";
 import React from "react";
 import { motion } from "framer-motion";
 import Footer from "../components/Footer";
+import people_covid from "../assets/people_covid.png";
+import people_missions_dig from "../assets/people_missions_dig.png";
+import people_onward from "../assets/people_onward.png";
+import about_me_white from "../assets/about_me_white.png";
+import family_avatar from "../assets/family_avatar.png";
 
 function Home() {
   return (
@@ -20,7 +25,7 @@ function Home() {
             whileHover={{scale: 1.5}}
           >
             <img
-              src="people-onward.png"
+              src={people_onward}
               alt="Grant with church group"
               className="people-img"
             />
@@ -32,7 +37,7 @@ function Home() {
             whileHover={{scale: 1.5}}
           >
             <img
-              src="people-missions-dig.png"
+              src={people_missions_dig}
               alt="Grant with missions group"
               className="people-img"
             />
@@ -44,7 +49,7 @@ function Home() {
             whileHover={{scale: 1.5}}
           >
             <img
-              src="people-covid.png"
+              src={people_covid}
               alt="Grant with group wearing masks"
               className="people-img"
             />
@@ -52,9 +57,9 @@ function Home() {
         </div>
         <div className="about">
           <div className="about-title">
-            <img src="about-me-white.png" alt="about me" className="name" />
+            <img src={about_me_white} alt="about me" className="name" />
             <img
-              src="family-avatar.png"
+              src={family_avatar}
               alt="Tracey family"
               className="avatar-round"
             />
