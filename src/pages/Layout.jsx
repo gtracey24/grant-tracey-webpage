@@ -14,6 +14,7 @@ const Layout = () => {
 
   return (
     <>
+    <div className="nav">
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
           <Navbar.Brand href="/">
@@ -26,10 +27,10 @@ const Layout = () => {
                 <Nav.Link href="/">HOME</Nav.Link>
               </motion.div>
               <motion.div whileHover={{ scale: 1.1 }}>
-                <Nav.Link href="/contact">CONTACT</Nav.Link>
+              <Nav.Link href="/projects">PROJECTS</Nav.Link>
               </motion.div>
               <motion.div whileHover={{ scale: 1.1 }}>
-              <Nav.Link href="/projects">PROJECTS</Nav.Link>
+                <Nav.Link href="/contact">CONTACT</Nav.Link>
               </motion.div>
               <motion.div whileHover={{ scale: 1.1 }}>
                 <Nav.Link href={Grant_Tracey_Resume_Dev} target="_blank">
@@ -41,6 +42,7 @@ const Layout = () => {
         </Container>
       </Navbar>
       <Outlet />
+</div>
     </>
   );
 };
