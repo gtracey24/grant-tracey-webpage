@@ -3,12 +3,12 @@ import Card from 'react-bootstrap/Card';
 import linkedin_icon from '../assets/linkedin_icon.png';
 import github_icon from '../assets/github_icon.png';
 import family_gabe_wedding from '../assets/family_gabe_wedding.jpg';
-import profile_polo from '../assets/profile_polo.png'
+import white_shirt from "../assets/white_shirt.png";
 
 function ContactCard() {
   return (
     <Card style={{ width: '24rem' }} text='dark' border='light'>
-      <Card.Img variant="bottom" src={profile_polo} alt='Grants profile image'/>
+      <Card.Img variant="bottom" src={white_shirt} alt='Grants profile image'/>
       <Card.Body>
         <Card.Title>Connect with me</Card.Title>
         <Card.Text>

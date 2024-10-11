@@ -1,11 +1,13 @@
 {
-  "name": "personal-webpage-2",
-  "homepage": "http://granttracey.com/",
-  "private": true,
+  "name": "grant-tracey-webpage",
+  "homepage": "http://gtracey24.github.io/grant-tracey-webpage",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"

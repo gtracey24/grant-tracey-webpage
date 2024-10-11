@@ -8,7 +8,7 @@ import Contact from "./pages/Contact";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/grant-tracey-webpage/">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
