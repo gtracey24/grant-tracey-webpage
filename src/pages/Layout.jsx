@@ -1,4 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
+import React from "react";
 import { Navbar, Nav, Container, Button, Modal, Form } from "react-bootstrap";
 import { useState } from "react";
 import { motion } from "framer-motion";

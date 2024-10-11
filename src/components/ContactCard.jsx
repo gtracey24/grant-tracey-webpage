@@ -1,4 +1,5 @@
 import Button from 'react-bootstrap/Button';
+import React from 'react';
 import Card from 'react-bootstrap/Card';
 import linkedin_icon from '../assets/linkedin_icon.png';
 import github_icon from '../assets/github_icon.png';
