@@ -35,7 +35,7 @@ const Layout = () => {
                 </motion.div>
                 <motion.div whileHover={{ scale: 1.1 }}>
                   <Nav.Link href={Grant_Tracey_Resume_Dev} target="_blank">
-                    RESUME
+                    RESUM&#201;
                   </Nav.Link>
                 </motion.div>
               </Nav>
