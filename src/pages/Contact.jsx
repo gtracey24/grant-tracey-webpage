@@ -55,27 +55,30 @@ export const Contact = () => {
             >
               <Card.Body>
                 <Form ref={form} onSubmit={sendEmail}>
-                  <Form.Label>Name</Form.Label>
+                  <Form.Label htmlFor="name">Name</Form.Label>
                   <br />
                   <Form.Control
+                  id="name"
                     name="from_name"
                     placeholder="Enter Name"
                     required
                     type="text"
                   />
                   <br />
-                  <Form.Label>Email</Form.Label>
+                  <Form.Label htmlFor="email">Email</Form.Label>
                   <br />
                   <Form.Control
+                  id="email"
                     name="email_id"
                     placeholder="Enter Email"
                     required
                     type="email"
                   />
                   <br />
-                  <Form.Label>Message</Form.Label>
+                  <Form.Label htmlFor="message">Message</Form.Label>
                   <br />
                   <Form.Control
+                  id="message"
                     name="message"
                     placeholder="Enter Message"
                     as="textarea"

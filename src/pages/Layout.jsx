@@ -19,7 +19,7 @@ const Layout = () => {
         <Navbar expand="lg" className="bg-body-tertiary">
           <Container>
             <Navbar.Brand href="/">
-              <img src={gt_name_200_50_black} />
+              <img src={gt_name_200_50_black} alt="Grant Tracey logo" />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

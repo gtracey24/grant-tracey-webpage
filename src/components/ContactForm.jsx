@@ -25,11 +25,11 @@ const ContactForm = () => {
         <Modal.Body>
           <Form>
             <Form.Group className="mb-3" controlId="formBasicEmail">
-              <Form.Label>Email address</Form.Label>
+              <Form.Label htmlFor="email">Email address</Form.Label>
               <Form.Control type="email" />
             </Form.Group>
             <Form.Group className="mb-3" controlId="message">
-              <Form.Label>Message</Form.Label>
+              <Form.Label htmlFor="message">Message</Form.Label>
               <Form.Control
                 as="textarea"
                 placeholder="Enter message"
