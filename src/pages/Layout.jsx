@@ -25,13 +25,13 @@ const Layout = () => {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
                 <motion.div whileHover={{ scale: 1.1 }}>
-                  <Nav.Link href="./">HOME</Nav.Link>
+                  <Nav.Link href="/">HOME</Nav.Link>
                 </motion.div>
                 <motion.div whileHover={{ scale: 1.1 }}>
-                  <Nav.Link href="./projects">PROJECTS</Nav.Link>
+                  <Nav.Link href="/projects">PROJECTS</Nav.Link>
                 </motion.div>
                 <motion.div whileHover={{ scale: 1.1 }}>
-                  <Nav.Link href="./contact">CONTACT</Nav.Link>
+                  <Nav.Link href="/contact">CONTACT</Nav.Link>
                 </motion.div>
                 <motion.div whileHover={{ scale: 1.1 }}>
                   <Nav.Link href={Grant_Tracey_Resume_Dev} target="_blank">
