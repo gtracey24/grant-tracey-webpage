@@ -5,7 +5,10 @@ import React from 'react'
 import App from './App.jsx'
 import './index.css'
 
-createRoot(document.getElementById('root')).render(
+const rootElement = document.getElementById('root');
+const root = createRoot(rootElement);
+
+root.render(
   <StrictMode>
     <App />
   </StrictMode>,

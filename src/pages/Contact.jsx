@@ -63,6 +63,7 @@ export const Contact = () => {
                     placeholder="Enter Name"
                     required
                     type="text"
+                    autoComplete="true"
                   />
                   <br />
                   <Form.Label htmlFor="email">Email</Form.Label>
@@ -73,6 +74,7 @@ export const Contact = () => {
                     placeholder="Enter Email"
                     required
                     type="email"
+                    autoComplete="true"
                   />
                   <br />
                   <Form.Label htmlFor="message">Message</Form.Label>
