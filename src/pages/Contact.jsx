@@ -47,6 +47,7 @@ export const Contact = () => {
       <div className="magicpattern">
         <div className="contact-main-container">
           <CardGroup>
+            <ContactCard />
             <Card
               style={{ width: "24rem" }}
               text="light"
@@ -108,7 +109,6 @@ export const Contact = () => {
                 </Form>
               </Card.Body>
             </Card>
-            <ContactCard />
           </CardGroup>
         </div>
       </div>

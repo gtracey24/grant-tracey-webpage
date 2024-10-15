@@ -6,6 +6,7 @@
   height: auto;
 }
 
+
 .smooth-gradient-text {
   background: linear-gradient(to bottom right,rgba(253,29,29), rgba(252,176,69));
   background-clip: text;
@@ -36,7 +37,6 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-content: flex-start;
-
 }
 .avatar-round {
   min-width: 100px;
@@ -95,6 +95,7 @@
   font-style: normal;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
 }
+
 .nav-tab:hover {
   color: #ffffff;
 }
@@ -130,6 +131,19 @@ li {
   background-repeat: repeat;
   background-image: url("assets/magicpattern-grid-pattern-1728061032746.jpeg");
 }
+
+@media only screen and (max-width: 600px) {
+  .about {
+    padding: 25px;
+  }
+  .main-container {
+    width: 95%;
+  }
+  .people-container {
+    width: 100%;
+  }
+}
+
 /* PROJECTS PAGE STYLES */
 .projects-container {
   display: flex;
@@ -137,7 +151,6 @@ li {
   align-items: center;
   margin: auto;
   overflow-x: hidden; /* Hide horizontal scrollbar */
-
   padding-top: 40px;
   padding-bottom: 40px;
   min-width: 100vw; /* 100% of the viewport width */
@@ -156,8 +169,10 @@ li {
 /* CONTACT PAGE STYLES */
 .contact-main-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  justify-content: center;
+  justify-items: center;
   margin: auto;
   overflow-x: hidden; /* Hide horizontal scrollbar */
   padding-top: 40px;
