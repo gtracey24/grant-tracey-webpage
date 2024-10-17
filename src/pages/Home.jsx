@@ -67,7 +67,7 @@ function Home() {
           <p>
             One of the most dramatic changes in my life came in 2017 when my
             wife and I learned that we would become parents of our first child.
-            Since then, we've grown to a six-person household and are exepcting
+            Since then, we've grown to a six-person household and are expecting
             another beautiful addition in January of 2025 (did you ever watch
             7th Heaven?). With this change in responsibility, I felt the need to
             explore the tech world for employment. Tech has always played some
