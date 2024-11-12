@@ -21,6 +21,7 @@ const Layout = () => {
             <Navbar.Brand href="/">
               <img src={gt_name_200_50_black} alt="Grant Tracey logo" />
             </Navbar.Brand>
+            <Navbar.Text className="dark">SOFTWARE DEVELOPER | </Navbar.Text>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
