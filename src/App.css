@@ -151,17 +151,19 @@ li {
 /* PROJECTS PAGE STYLES */
 .projects-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  margin: auto;
+  justify-content: center;
   overflow-x: hidden; /* Hide horizontal scrollbar */
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
   min-width: 100vw; /* 100% of the viewport width */
   min-height: 100vh; /* 100% of the viewport height */
 }
 .projects-title {
-  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
 }
 .projects-cards {
   display: flex;
