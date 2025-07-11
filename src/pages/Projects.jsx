@@ -1,5 +1,4 @@
 import "../App.css";
-import React from "react";
 import projects_white from "../assets/projects_white.png";
 import Footer from "../components/Footer";
 import WellCoffeeProjectCard from "../components/WellCoffeeProjectCard";
@@ -8,7 +7,7 @@ import PrecisionCard from "../components/PrecisionCard";
 function Projects() {
   return (
     <>
-      <div className="magicpattern">
+        <div className="magicpattern">
         <div className="projects-title">
           <img src={projects_white} />
         </div>

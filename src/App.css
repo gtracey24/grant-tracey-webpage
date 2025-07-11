@@ -62,7 +62,6 @@
   height: 40%;
 }
 .nav {
-  width: 100vw;
   background-color: #F8F9FA;
 }
 .nav-name{
@@ -108,7 +107,7 @@ li {
 }
 .contact-container {
   margin-top:  20px;
-  padding-left: 20px;
+  /* padding-left: 20px; */
   padding-bottom:20px;
   padding-top: 20px;
   width: auto;
@@ -120,21 +119,33 @@ li {
   font-weight: 25px;
   font-style: normal;
   background-color: rgba(131,58,180,1);
+    /* width: calc(100% - 40px); Adjust for 20px padding on each side */
 }
 .magicpattern {
-  min-width: 100%; /* 100% of the viewport width */
-  min-height: 100vh; /* 100% of the viewport height */
-  padding: 0;
-
-  /* overflow:hidden;  */
-  overflow-x: hidden; /* Hide horizontal scrollbar */
-  /* overflow-x: hidden; */
-  /* overflow-y: hidden; */
-  background-size:cover;
-  background-position: center center;
-  background-repeat: repeat;
+  font-family: "Libre Franklin", sans-serif;
   background-image: url("assets/magicpattern-grid-pattern-1728061032746.jpeg");
-  
+  min-height: 600px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* display: flex;
+  justify-content: center;
+  align-items: end; */
+  color: #ffffff;
+  /* width: calc(100% - 40px); Adjust for 20px padding on each side */
+}
+
+.magicpattern2 {
+  font-family: 'Old Standard TT';
+  background-image: url("assets/magicpattern-grid-pattern-1728061032746.jpeg");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* display: flex;
+  justify-content: center; */
+  color: #ffffff;
+  /* width: calc(100% - 40px); Adjust for 20px padding on each side */
 }
 
 @media only screen and (max-width: 600px) {
@@ -155,13 +166,12 @@ li {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  overflow-x: hidden; /* Hide horizontal scrollbar */
-  padding-bottom: 10px;
-  min-width: 100vw; /* 100% of the viewport width */
-  min-height: 100vh; /* 100% of the viewport height */
+  min-width: 100vw;
+  min-height: 100vh; 
 }
 .projects-title {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-top: 40px;
